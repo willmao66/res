@@ -1,0 +1,7 @@
+{
+    "name": "TTGames Coin",
+    "description": "A common coin for TTGames-platform",
+    "symbol": "TTC",
+    "decimals": 0,
+    "image": "https://res.ttgames.xyz/icons/ttc.png"
+}
