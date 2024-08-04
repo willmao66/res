@@ -35,8 +35,16 @@
 <body>
     <h1>Welcome to My Website</h1>
     <p>This is a simple website hosted on GitHub Pages.</p>
-    <div id="canvas-wrapper">
+    <!-- <div id="canvas-wrapper">
         <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0" width="720" height="1280"></canvas>
+    </div> -->
+    <div id="canvas-wrapper">
+      <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+      <div id="splash">
+        <div class="progress-bar stripes">
+          <span style="width: 0%"></span>
+        </div>
+      </div>
     </div>
     <!-- Eruda is console for mobile browsers -->
     <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
